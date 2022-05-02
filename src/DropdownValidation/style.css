@@ -1,0 +1,12 @@
+.app {
+    margin: 20px;
+    width: 450px;
+}
+
+.form {
+    width: 350px;
+}
+
+.err-msg {
+    font-size: 13px;
+}

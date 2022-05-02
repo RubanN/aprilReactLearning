@@ -1,0 +1,19 @@
+import { useState } from 'react';
+import "./style.css"
+const InputTextField = () => {
+    const [email, setEmail] = useState("")
+    return (
+        <div className="App">
+            <input
+                type="email"
+                placeholder='Enter email'
+                data-testid="email-input"
+                value={email}
+                onChange={e => setEmail(e.target.value)}
+            />
+            {email && !(/\S+@\S+\.\S+/).test(email) && <span className="error" data-testid="error-msg">Please enter a valid email</span>}
+        </div>
+    )
+}
+
+export default InputTextField
