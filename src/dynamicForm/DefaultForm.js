@@ -21,7 +21,7 @@ const DefaultForm = () => {
     }
     const handleDelete = (e, id) => {
         e.preventDefault()
-        setTaskList(taskList.filter((x) => x.id !== x.id))
+        setTaskList(taskList.filter((x) => x.id !== id))
     }
     return (
         <div >
@@ -31,7 +31,7 @@ const DefaultForm = () => {
                 <ul>
                     {taskList.map((t) => (
                         <li key={t.id}>{t.value}
-                            <button onClick={handleDelete}>Delete</button>
+                            <button onClick={(e) => handleDelete(e, t.id)}>Delete</button>
                         </li>
 
                     ))}
