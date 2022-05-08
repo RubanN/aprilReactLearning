@@ -2,7 +2,6 @@
 const PraticeParentReact = () => {
     return (
         <div>
-
         </div>
     )
 }
