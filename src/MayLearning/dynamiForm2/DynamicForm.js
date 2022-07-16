@@ -5,6 +5,7 @@ const DynamicForm = () => {
 
     // handle input change
     const handleInputChange = (e, ind) => {
+
         const { name, value } = e.target
         const list = [...inputList]
         console.log("inputList", list)
@@ -49,7 +50,7 @@ const DynamicForm = () => {
 
                             >Remove
                             </button>}
-                            {inputList.length - 1 === i && <button onClick={handleAddClick}></button>}
+                            {inputList.length - 1 === i && <button onClick={handleAddClick}>Add</button>}
                         </div>
 
                     </div>

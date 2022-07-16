@@ -49,7 +49,6 @@ const Form = () => {
                 class="form-field"
                 type="text"
                 disabled={showSuccess}
-
                 placeholder="First Name"
                 name="firstName"
                 value={values.firstName}

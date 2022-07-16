@@ -1,11 +1,18 @@
-// import "./App.css"
-// import PraticeParentReact from "./ReactPracticeCode/PraticeParentReact";
-import ArrParent from "./ObjectArrayUsesOfReact/ArraySpread/ArrParent"
+
+import BestPratice from "./bestPraticeReact/BestPratice";
+import BlogReactMaterial from "./blogReactMaterial";
+import Cluemediator from "./cluemediator";
+import JohnSmilga from "./john-smilga/JohnSmilga";
+
 const App = () => {
+
   return (
     <>
-      {/* <PraticeParentReact /> */}
-      <ArrParent />
+
+      <JohnSmilga />
+      <BestPratice />
+      <Cluemediator />
+      <BlogReactMaterial />
     </>
 
   );

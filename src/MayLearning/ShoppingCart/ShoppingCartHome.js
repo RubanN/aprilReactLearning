@@ -18,7 +18,8 @@ const ShoppingCartHome = () => {
 
         const newCartList = {
             itemName: inputValue,
-            quantity: 1, isSelected: false,
+            quantity: 1,
+            isSelected: false,
         }
         const newCartLists = [...items, newCartList]
         setItems(newCartLists);

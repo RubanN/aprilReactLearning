@@ -1,8 +1,9 @@
-import { EightArray } from "../../ObjectArrayUsesOfReact/ArraySpread/FirstSpreadArray"
+import ReactArrayOfObjects from "./ReactArrayOfObjects"
+
 const ArrParent = () => {
     return (
         <div>
-            <EightArray />
+            <ReactArrayOfObjects />
         </div>
     )
 }
