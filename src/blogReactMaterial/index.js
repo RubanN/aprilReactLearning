@@ -1,11 +1,16 @@
-import React from "react";
-import PrevntFormReact from "./preventform/PrevntFormReact";
+import DetectBackSpace from "./detectBackspace/DetectBackSpace";
 
 function BlogReactMaterial() {
     return (
         <>
 
-            <PrevntFormReact />
+
+
+
+            <DetectBackSpace />
+
+
+
         </>
     )
 }
